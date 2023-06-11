@@ -58,7 +58,7 @@
        
          <h2><strong>Sistem Monitoring Kualitas Air Laut</strong></h2>
         <h2><strong>Untuk Ekosistem Terumbu Karang</strong></h2>
-   <br>
+        <br>
       
           <!-- Tabel -->
             <div class="container text-center">
