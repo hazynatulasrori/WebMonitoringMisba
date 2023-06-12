@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 Route::get('/bacaph',[WebSensor::class, 'bacaph']);
 Route::get('/bacaturbi',[WebSensor::class,'bacaturbi']);
+Route::get('/status',[WebSensor::class,'status']);
+Route::get('/data', [App\Http\Controllers\DataController::class, 'data'])->name('data');

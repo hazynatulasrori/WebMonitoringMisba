@@ -17,7 +17,14 @@ class WebSensor extends Controller
      }
         public function bacaturbi()
         {
-        $sensor =MSensor::select('*')->get();
+        $sensor =MSensor::select('id_sensor','turbi')->get();
         return view ('bacaturbi', ['nilaisensor'=> $sensor]);
         }
+
+        public function status()
+        {
+        $sensor =MSensor::select('*')->get();
+        return view ('status', ['nilaisensor'=> $sensor]);
+        }
+        
 }

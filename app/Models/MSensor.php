@@ -9,8 +9,8 @@ class MSensor extends Model
 {
     use HasFactory;
 
-    protected $table = 'tb_sensor';
-    protected $primarykey = 'id';
-    protected $fillable = ['ph','turbi'];
+    protected $table = 'monitoringweb';
+    protected $primarykey = 'id_sensor';
+    protected $fillable = ['ph','turbi','status'];
 
 }

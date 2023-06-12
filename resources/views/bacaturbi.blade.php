@@ -3,7 +3,7 @@
     foreach($nilaisensor as $data)
     {
         //cetak isi ph
-        echo $data->turbi ;        
+        print $data->turbi ;        
     }
 
 ?>
